@@ -1,6 +1,79 @@
+.land{
+  background-image:url("https://www130.lunapic.com/editor/images/white.gif");
+background-position: center;
+background-size: cover;
+height: 500px;
+}
+#navbar{
+  background-color: black;
+  padding: 20px;
+}
+#services{
+  background-color: #677326;
+}
+a{
+  padding: 10px;
+  text-transform: uppercase;
+
+}
 .row{
   display: flex;
 }
-.hi{
+img{
+  padding: 20px;
+  border-radius: 70px 70px 70px ;
+}
+.pizza-img-hidden{
   display:none;
+}
+
+
+.main-heading{
+  font-family: 'Anton';
+  font-size: 3.5em;
+  text-align: center;
+  position: absolute;
+  top:200px;
+  left:420px;
+  color:#677326;
+
+}
+.paragraph{
+  background-color: rgba(153, 157, 146);
+  height: 250px;
+
+}
+.welcome{
+ text-align: center;
+ font-size: 1.2em;
+}
+.jumbotron{
+  background-image: url("img/logo.png");
+}
+#output1{
+  position:absolute;
+  top: 290px;
+  left: 400px;
+  font-size: 1.4em;
+}
+#output2{
+  position: absolute;
+  top: 330px;
+  left: 400px;
+  font-size: 1.4em;
+
+}
+#output3{
+  position: absolute;
+  top: 370px;
+  left: 400px;
+  font-size: 1.4em;
+
+}
+#output4{
+  position: absolute;
+  top:420px;
+  left: 400px;
+  font-size: 1.4em;
+
 }
