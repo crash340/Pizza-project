@@ -1,36 +1,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  </head>
-  <body>
-    <h1>Jazza's pizzeria</h1>
-    <div class="row">
-      <div  class="col-md-4">
-        <div class="pizza-img-hidden">
+<head>
+   <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+   <script src="js/scripts.js" type="text/javascript"></script>
+   <link rel="stylesheet" href="css/styles.css">
 
-        <p>cheese pizza</p>
-        <img class= "hi" style="display:none;"src="img/cheese-pizza.jpg" width="300px" height="200px">
+   </script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Muli&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="land">
+      <div id="navbar">
+        <a href="#home">home</a>
+        <a href="#about us">about us</a>
+        <a href="#services">service</a>
+        <a href="#contacts">contact</a>
+
       </div>
-    </div>
-    <div class="col-md-4">
-      <div class="pizza-img-hidden">
 
-      <p>chicken pizza</p>
-      <img class ="hi"  src="img/chicken-pizza.jpg" width="300px" height="200px">
+
+      <h1 class="main-heading">Jazza's pizzeria</h1>
+
+
     </div>
+    <h2>About us</h2>
+    <div class="paragraph">
+      <p class="welcome">Welcome to jazza pizzeria this is a magnificent place to eat and enjoy pizza.</p>
+      <p class="welcome">This establishment started in 2001 by Mohamed Hashi</p>
+      <p class="welcome">this place has stores all over the world including iceland ,somalia and india</p>
+
+
+    </div>
+
+
+    <div id="services">
+      <h2>Services we offer</h2>
+      <img src="https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco/https://storage.googleapis.com/gen-atmedia/3/2018/03/55cd28cae8ee78fe1e52ab1adc9eafff24c9af92.jpeg" height="250px" width="400px">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" height="250px" width="400px">
+      <img src="https://enrilemoine.com/wp-content/uploads/2018/08/Jalapen%CC%83o-and-Serano-Pepper-Pizza-SAVOIR-FAIREby-enrilemoine-1.jpg" height="250px" width="400px">
+      <img src="https://images-gmi-pmc.edge-generalmills.com/f4c0a86f-b080-45cd-a8a7-06b63cdb4671.jpg" height="250px" width="400px">
+      <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/11/6/0/KC0403_Cauliflower-Pizza-Crust_s4x3.jpg.rend.hgtvcom.826.620.suffix/1562006004844.jpeg" height="250px" width="400px">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyco53sRoX2f6CJLbYTS2wag5_DudnveDdCFcuX3FkrKavmTED_A" height="250px" width="400px">
+
+
+    </div>
+    <div class="order">
+      <h2>You can order by clicking this <a href="order-page.html">ORDER</a>link</h2>
+
+
+
+    </div>
+    <div id="contacts">
+      <h2>Contuct us</h2>
+      <form class="contact" method="post">
+        <label for="email">email</label><br>
+        <input type="email" value="email"><br>
+        <label for="phone number">phone number</label><br>
+        <input type="tel" name="number" value="number">
+      </form>
+
+    </div>
+
+    <footer>&copy mohamed.pizza</footer>
   </div>
-  <div class="col-md-4">
-    <div class="pizza-img-hidden">
+</body>
 
-    <p >hawaian pizza</p>
-  <img class = "hi"  src="img/hawian-pizza.jpg" width="
-</div>
-  300px" height="200px">
-</div>
-
-    </div>
-
-  </body>
 </html>

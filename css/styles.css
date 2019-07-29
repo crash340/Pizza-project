@@ -52,27 +52,27 @@ img{
 }
 #output1{
   position:absolute;
-  top: 290px;
+  top: 360px;
   left: 400px;
   font-size: 1.4em;
 }
 #output2{
   position: absolute;
-  top: 330px;
+  top: 380px;
   left: 400px;
   font-size: 1.4em;
 
 }
 #output3{
   position: absolute;
-  top: 370px;
+  top: 430px;
   left: 400px;
   font-size: 1.4em;
 
 }
 #output4{
   position: absolute;
-  top:420px;
+  top:470px;
   left: 400px;
   font-size: 1.4em;
 
