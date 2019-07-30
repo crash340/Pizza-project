@@ -1,6 +1,4 @@
 $(document).ready(function(){
-
-
   $("select#size").change(function(){
     window.selectedsize = $(this).children("option:selected").val();
 
@@ -15,7 +13,6 @@ $(document).ready(function(){
     else if(window.selectedsize === "medium"){
       window.money_size= 20;
     }
-    alert(window.money_size);
 
   });
   $("select#crust").change(function(){
@@ -26,12 +23,10 @@ $(document).ready(function(){
     }
     else if (window.selectedcrust === "stuff") {
       window.money_crust = 10;
-
     }
     else if(window.selectedcrust === "Gluten-free"){
       window.money_crust = 20;
     }
-    alert(window.money_crust);
 
   });
 
@@ -48,12 +43,33 @@ $(document).ready(function(){
     else if(window.selectedtopping === "cheese"){
       window.money_topping = 20;
     }
-    alert(window.money_topping);
-    window.number_of_pizza = $("#no").val()
-    alert(window.number_of_pizza);
-    var total = window.number_of_pizza * ( window.money_crust + window.money_size + window.money_topping)
-    $("#output4").text(total)
+
+
+
   });
+  $("#action").click(function(){
+    event.preventDefault();
+    window.number_of_pizza = $("#no").val()
+
+    var total = window.number_of_pizza*( window.money_crust + window.money_size + window.money_topping);
+    $("#output4").text(total);
+    var x =prompt("Where do you want your pizza to be delivered?")
+    $("#output5").text(x);
+
+  })
+  $("#money").click(function(){
+    event.preventDefault();
+    $("#output4").show();
+  })
+
+
+
+
+
+
+
+
+
 
 
 

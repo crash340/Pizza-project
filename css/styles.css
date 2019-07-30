@@ -1,6 +1,6 @@
 .land{
-  background-image:url("https://www130.lunapic.com/editor/images/white.gif");
-background-position: center;
+  background-image:lightgreen;
+  background-position: center;
 background-size: cover;
 height: 500px;
 }
@@ -52,28 +52,48 @@ img{
 }
 #output1{
   position:absolute;
-  top: 360px;
+  top: 420px;
   left: 400px;
   font-size: 1.4em;
 }
 #output2{
   position: absolute;
-  top: 380px;
+  top: 460px;
   left: 400px;
   font-size: 1.4em;
 
 }
 #output3{
   position: absolute;
-  top: 430px;
+  top: 500px;
   left: 400px;
   font-size: 1.4em;
 
 }
 #output4{
   position: absolute;
-  top:470px;
+  top:545px;
   left: 400px;
   font-size: 1.4em;
 
+}
+.b1{
+  background-color:green;
+}
+#output4{
+  display: none;
+}
+.make{
+  font-family:'Anton';
+}
+#output5{
+  position: absolute;
+  top:580px;
+  left: 400px;
+  font-size: 1.4em;
+
+}
+img:hover{
+  height: 260px;
+  width: 420px;
 }
