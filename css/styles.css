@@ -1,8 +1,11 @@
 .land{
-  background-image:lightgreen;
+  background-color:lightgreen;
   background-position: center;
 background-size: cover;
 height: 500px;
+}
+body{
+  background-color: lightgreen;
 }
 #navbar{
   background-color: black;
